@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 import Card from "../components/Card";
 import Menu from "../components/Menu";
 
-class Home extends React.Component {
+class Dinner extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -13,11 +13,6 @@ class Home extends React.Component {
       scrollPos: 0,
     };
   }
-  // setCart = () => {
-  //   this.setState({
-  //     showCart: !this.state.showCart,
-  //   });
-  // };
   componentDidMount() {
     window.addEventListener("scroll", this.handleScroll);
   }
@@ -91,7 +86,7 @@ class Home extends React.Component {
         <Home>
           <div className="menuu">
             <div className={this.state.show ? "active" : "hidden"}>
-              <Menu id="menu" active={"home"} />
+              <Menu id="menu" active={"dinner"} />
             </div>
           </div>
           <div className="main">
@@ -106,4 +101,4 @@ class Home extends React.Component {
   }
 }
 
-export default Home;
+export default Dinner;

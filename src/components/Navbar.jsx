@@ -5,9 +5,10 @@ import Dates from "./Dates";
 
 const Navbar = () => {
   const Nav = styled.div`
-    background-color: pink;
-    margin: 0;
-    padding: 0;
+    background-color: white;
+    top: 0;
+    padding: 4px;
+    border-bottom: 1px solid #f1f1f2;
     .top {
       display: flex;
       margin-left: 8px;
@@ -67,6 +68,7 @@ const Navbar = () => {
             display: flex;
             justify-content: flex-end;
             button {
+              cursor: pointer;
               right: 0;
               background-color: transparent;
               border: none;
@@ -131,7 +133,9 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <Dates />
+      <div>
+        <Dates />
+      </div>
     </Nav>
   );
 };
