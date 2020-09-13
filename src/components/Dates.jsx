@@ -183,7 +183,7 @@ const Dates = () => {
         <div className="days">
           <div className="two-day">
             <p id="day2">rab</p>
-            <p id="number2">18</p>
+            <p id="number2">19</p>
           </div>
         </div>
       </div>
@@ -191,7 +191,7 @@ const Dates = () => {
         <div className="days">
           <div className="two-day">
             <p id="day2">kam</p>
-            <p id="number2">19</p>
+            <p id="number2">20</p>
           </div>
         </div>
       </div>
